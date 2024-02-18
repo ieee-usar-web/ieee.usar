@@ -28,7 +28,7 @@ const SubChapterDesc = ({ clickNext, clickPrev, activeImageIndex }) => {
           <div className="absolute bottom-1 w-full flex justify-center items-center">
             <div className="absolute bottom-2 right-16 cursor-pointer">
               <Button onClick={clickPrev} variant="outline">
-                <ArrowBigLeft />
+                <ArrowBigLeft className="text-black"/>
               </Button>
             </div>
             <div className="absolute bottom-2 right-1 cursor-pointer">
