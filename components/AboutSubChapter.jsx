@@ -30,8 +30,8 @@ const AboutSubChapter = () => {
   }, [activeImageIndex]);
 
   return (
-    <main className="w-full min-h-screen mx-auto grid place-items-center bg-slate-100">
-      <div className="grid place-items-center grid-cols-2 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl">
+    <main className="w-full min-h-screen mx-auto grid place-items-center bg-slate-100 z-[-1]">
+      <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl">
         <div className="w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-2xl">
           {subChapters.map((chap, idx) => (
             <div
